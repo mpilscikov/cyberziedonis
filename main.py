@@ -69,11 +69,7 @@ async def nomirt(ctx):
 
 @bot.command()
 async def paliga(ctx):
-    area=ctx.message.channel
-    await bot.send_file(area,
-                        'README.md',
-                        filename='README.md',
-                        content='Kas meklē palīdzību, tas atrod')
+    await ctx.send(file=discord.File(r'README.md'))
 
 
 
