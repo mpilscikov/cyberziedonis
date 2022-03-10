@@ -27,7 +27,7 @@ Un šī bija pilna prieka.
 HELP_LIST = '''```
 Komanda           | Darbība 
 ------------------| ----------------------------------------------------------------
-dzejolis          | atsūta nejauši izvēlētu I. Ziedoņa dzejoli
+!dzejolis         | atsūta nejauši izvēlētu I. Ziedoņa dzejoli
 !bulduris         | atsūta nejauši uzģenerētu dzejoli
 !dzivot           | pievienojas balss kanālam, kuram pieslēgts lietotājs
 !nomirt           | atslēdzas no balss kanāla
