@@ -24,7 +24,7 @@ Nav pagājusie lieka.
 Un šī bija pilna prieka.
 '''
 
-HELP_LIST = '''
+HELP_LIST = '''```
 Komanda           | Darbība 
 ------------------| ----------------------------------------------------------------
 dzejolis          | atsūta nejauši izvēlētu I. Ziedoņa dzejoli
@@ -34,4 +34,4 @@ dzejolis          | atsūta nejauši izvēlētu I. Ziedoņa dzejoli
 !balss            | balss kanālā tiek atskaņots nejauši izvēlēts I. Ziedoņa dzejolis
 !balss epifanijas | balss kanālā tiek atskaņotas I. Ziedoņa Epifānijas
 !paliga           | atsūta sarakstu ar komandām
-'''
+```'''
