@@ -46,7 +46,7 @@ async def balss(ctx, epifanijas=None):
     with YoutubeDL(YDL_OPTIONS) as ydl:
         info = ydl.extract_info(url, download=False)
         I_URL = info['formats'][0]['url']
-        source = await discord.FFmpegOpusAudio.from_probe(I_URL, executable='ffmpeg/bin/ffmpeg.exe', **FFMPEG_OPTIONS)
+        source = await discord.FFmpegOpusAudio.from_probe(I_URL, **FFMPEG_OPTIONS)
         voice.play(source)
         voice.is_playing()
 
