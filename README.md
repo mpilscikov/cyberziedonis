@@ -22,4 +22,4 @@ Komanda    | Darbība
 <em>!nomirt</em>    | atslēdzas no balss kanāla
 <em>!balss</em>     | balss kanālā tiek atskaņots nejauši izvēlēts I. Ziedoņa dzejolis
 <em>!balss epifanijas</em>     | balss kanālā tiek atskaņotas I. Ziedoņa Epifānijas
-<em>!paliga</em>     | atsūta dokumentācijas failu
+<em>!paliga</em>     | atsūta sarakstu ar komandām

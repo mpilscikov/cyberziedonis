@@ -23,3 +23,15 @@ Nav pagājusie lieka.
 Šī bija pilna zāles,
 Un šī bija pilna prieka.
 '''
+
+HELP_LIST = '''
+Komanda           | Darbība 
+------------------| ----------------------------------------------------------------
+dzejolis          | atsūta nejauši izvēlētu I. Ziedoņa dzejoli
+!bulduris         | atsūta nejauši uzģenerētu dzejoli
+!dzivot           | pievienojas balss kanālam, kuram pieslēgts lietotājs
+!nomirt           | atslēdzas no balss kanāla
+!balss            | balss kanālā tiek atskaņots nejauši izvēlēts I. Ziedoņa dzejolis
+!balss epifanijas | balss kanālā tiek atskaņotas I. Ziedoņa Epifānijas
+!paliga           | atsūta sarakstu ar komandām
+'''

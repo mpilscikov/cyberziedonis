@@ -69,7 +69,9 @@ async def nomirt(ctx):
 
 @bot.command()
 async def paliga(ctx):
-    await ctx.send(file=discord.File(r'README.md'))
+
+    from constants import HELP_LIST
+    await ctx.send(HELP_LIST)
 
 
 
