@@ -67,4 +67,14 @@ async def nomirt(ctx):
     await ctx.send(NOMIRT_COMMAND_MESSAGE)
 
 
+@bot.command()
+async def paliga(ctx):
+    area=ctx.message.channel
+    await bot.send_file(area,
+                        'README.md',
+                        filename='README.md',
+                        content='Kas meklē palīdzību, tas atrod')
+
+
+
 bot.run('OTUxNDMwNDA5NjcyMDk3ODAy.YinWng.DsmwDo_xucE3rt_gTpB0E45OrTI')
